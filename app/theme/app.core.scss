@@ -46,3 +46,19 @@ ion-content {
     padding-bottom: 0px;
     padding-left: 4px;
 }
+
+ion-grid ion-row ion-col {
+    background-color: #fff;
+    border: 1px solid #7f8c8d;
+    color: #7f8c8d;
+    margin: 0;
+    font-size: 0.9em;
+    align-items: baseline;	
+}
+
+ion-row.header {
+	text-align: center;
+    margin: 0;
+    font-size: 1.0em;
+    margin-bottom: 2px;
+}
