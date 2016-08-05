@@ -7,6 +7,42 @@
 // By default each design mode includes these shared imports.
 // App Shared Sass variables belong in app.variables.scss.
 
+@import "../pages/inicio/inicio";
 @import "../pages/page1/page1";
-
 @import "../pages/page2/page2";
+
+
+ion-content {
+	background-color: #FFFFFF;
+}
+
+.pageTitle {
+    display: block;
+    margin: auto;
+    width: 33px;
+    height: 17px;
+    border: 3px solid #73AD21;
+   	text-align: center;
+}
+
+.menuTitle {
+	background-color: #003a7a;
+    display: block;
+    margin: auto;
+}
+
+.menu {
+    display: block;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.buttonmenu {
+	background-color: #003a7a;
+	font-size: 0.9em;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 4px;
+}
