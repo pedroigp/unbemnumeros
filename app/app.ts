@@ -1,10 +1,16 @@
 import { Component, ViewChild } from '@angular/core';
-import { ionicBootstrap, Platform, Nav } from 'ionic-angular';
+import { ionicBootstrap, Platform, Nav, NavController,NavParams } from 'ionic-angular';
 import { StatusBar } from 'ionic-native';
 
 import { InicioPage } from './pages/inicio/inicio'; 
-import { Page1 } from './pages/page1/page1';
-import { Page2 } from './pages/page2/page2';
+import { InfraestruturaPage } from './pages/infraestrutura/infraestrutura';
+import { PublicacaoPage } from './pages/publicacao/publicacao';
+import { TecnicosadministrativosPage } from './pages/tecnicosadministrativos/tecnicosadministrativos';
+import { TitulacaoPage } from './pages/titulacao/titulacao';
+import { RegimetrabalhoPage } from './pages/regimetrabalho/regimetrabalho';
+import { FaculdadesPage } from './pages/faculdades/faculdades';
+import { PosgraduacaoPage } from './pages/posgraduacao/posgraduacao';
+import { DadosfinanceirosPage } from './pages/dadosfinanceiros/dadosfinanceiros';
 
 @Component({
   templateUrl: 'build/app.html'
@@ -14,14 +20,47 @@ class MyApp {
 
   rootPage: any = InicioPage;
 
-  private inicio = InicioPage;
-  private page1 = Page1;
-  private page2 = Page2;
+  pagesInicio: Array<{title: string, icon: string, component: any}>;
+  pagesDadosGlobais: Array<{title: string, icon: string, component: any}>;
+  pagesDocentes: Array<{title: string, icon: string, component: any}>;
+  pagesFaculdades: Array<{title: string, icon: string, component: any}>;
+  pagesDadosFinanceiros: Array<{title: string, icon: string, component: any}>;
+  menuPrincipal: Array<{menu: string, opcoes: any}>;
 
   constructor(private platform: Platform) {
     this.initializeApp();
+    
+    this.pagesInicio = [
+      { title: 'Inicio', icon: 'home', component: InicioPage }
+    ];
 
+    this.pagesDadosGlobais = [
+      { title: 'Técnicos-Administrativos', icon: 'people', component: TecnicosadministrativosPage }
+    ];    
 
+    this.pagesDocentes = [
+      { title: 'Titulação', icon: 'ribbon', component: TitulacaoPage },
+      { title: 'Regime de Trabalho', icon: 'clock', component: RegimetrabalhoPage }
+    ]; 
+
+    this.pagesFaculdades = [
+      { title: 'Graduação', icon: 'school', component: FaculdadesPage },
+      // { title: 'Pós-Graduação', icon: 'school', component: FaculdadesPage },
+      { title: 'Mestrado', icon: 'school', component: FaculdadesPage },
+      { title: 'Doutorado', icon: 'school', component: FaculdadesPage }
+    ];       
+    
+    this.pagesDadosFinanceiros = [
+      { title: 'Receitas / Despesas', icon: 'cash', component: DadosfinanceirosPage }
+    ];
+
+    this.menuPrincipal = [
+      { menu: '', opcoes: this.pagesInicio },
+      { menu: 'Dados Globais', opcoes: this.pagesDadosGlobais },
+      { menu: 'Docentes', opcoes: this.pagesDocentes },
+      { menu: 'Dados Instituidos/ Faculdades', opcoes: this.pagesFaculdades },
+      { menu: 'Dados Financeiros', opcoes: this.pagesDadosFinanceiros }
+    ];      
   }
 
   initializeApp() {
@@ -33,12 +72,14 @@ class MyApp {
   }
 
   openPage(page) {
-    // Reset the content nav to have just this page
-    // we wouldn't want the back button to show in this scenario
-    this.rootPage = page
+    this.nav.setRoot(page);
   }
 
-  
+  openPageParam(page) {
+    this.nav.setRoot(page.component, {
+      pagina: page.title
+    });
+  }    
 }
 
 ionicBootstrap(MyApp, [], {

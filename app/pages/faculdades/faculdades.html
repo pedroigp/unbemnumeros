@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-navbar>
+    <button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title> {{tituloPagina}}</ion-title>
+  </ion-navbar>
+  <!--  <ion-toolbar>
+  <ion-title>Regime de Trabalho</ion-title>
+  </ion-toolbar> -->  
+</ion-header>
+
+<ion-content class="faculdades">
+	<ion-scroll scrollX="true" scrollY="true">
+		<ion-grid padding>
+		  <ion-row class="headernospace">
+	    	<ion-col width-67>Curso</ion-col>
+	    	<ion-col width-25>Unidade</ion-col>
+	    	<ion-col width-33>Matriculados</ion-col>
+	    	<ion-col width-33>Formados</ion-col>
+	    	<ion-col width-33>Ingressantes</ion-col>
+			<ion-col width-5 class="noborder"></ion-col>
+		  </ion-row>
+		  <ion-row *ngFor="let dado of dadosFaculdade" class="data">
+		  	<ion-col width-67 class="esquerda" >{{dado.curso}}</ion-col>
+		  	<ion-col width-25>{{dado.und}}</ion-col>
+		  	<ion-col width-33>{{dado.mat}}</ion-col>
+		  	<ion-col width-33>{{dado.for}}</ion-col>
+			<ion-col width-33>{{dado.ing}}</ion-col>
+			<ion-col width-5 class="noborder"></ion-col>
+		  </ion-row>
+          <ion-row class="headernospace">
+	    	<ion-col width-67></ion-col>
+	    	<ion-col width-25>TOTAL</ion-col>
+	    	<ion-col width-33>{{faculdades.totalMatriculados | number:'1.0' | replace:",":"."}}</ion-col>
+	    	<ion-col width-33>{{faculdades.totalFormados | number:'1.0' | replace:",":"."}}</ion-col>
+	    	<ion-col width-33>{{faculdades.totalIngressantes | number:'1.0' | replace:",":"."}}</ion-col>
+			<ion-col width-5 class="noborder"></ion-col>
+	      </ion-row> 		  
+		</ion-grid>
+	</ion-scroll>
+</ion-content>  

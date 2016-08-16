@@ -1,0 +1,40 @@
+{
+    "receitas": [{
+        "tit": "Receitas Próprias",
+        "valor": 137778138.25
+    }, {
+        "tit": "Transferências",
+        "valor": 0.00
+    }, {
+        "tit": "Outras receitas",
+        "valor": 40300498.20
+    }, {
+        "tit": "Total de Receitas",
+        "valor": 178078636.45
+    }],
+    "despesas": [{
+        "tit": "Pessoal - remuneração de professores ativos",
+        "valor": 551116255.34
+    }, {
+        "tit": "Pessoal - remuneração de pessoal técnico-administrativo/pedagógico",
+        "valor": 329906920.86
+    }, {
+        "tit": "Pessoal - Benefícios e encargos sociais",
+        "valor": 881023176.20
+    }, {
+        "tit": "Outras despesas de custeio",
+        "valor": 217915065.06
+    }, {
+        "tit": "Investimentos (despesas de capital)",
+        "valor": 22693197.40
+    }, {
+        "tit": "Pesquisa e desenvolvimento",
+        "valor": 15507393.04
+    }, {
+        "tit": "Outras despesas  ",
+        "valor": 360342902.82
+    }, {
+        "tit": "Total Despesas",
+        "valor": 2378504910.72
+    }]
+}

@@ -28,7 +28,7 @@
     "run-sequence": "1.1.5"
   },
   "name": "unb-em-numeros",
-  "description": "UNB em numeros: An Ionic project",
+  "description": "UNB em numeros",
   "cordovaPlugins": [
     "cordova-plugin-device",
     "cordova-plugin-console",

@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-navbar>
+    <button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title> Técnicos-Administrativos</ion-title>
+  </ion-navbar>
+  <!--  <ion-toolbar>
+  <ion-title>Regime de Trabalho</ion-title>
+  </ion-toolbar> -->  
+</ion-header>
+
+<ion-content class="tecnicosadministrativos">
+  <ion-grid padding>
+    <ion-row class="headernospace">
+    	<ion-col width-33>Titulação</ion-col>
+    	<ion-col width-25>Feminimo</ion-col>
+    	<ion-col width-25>Masculino</ion-col>
+    	<ion-col width-20>Total</ion-col>
+    </ion-row>
+    <ion-row *ngFor="let dado of dados;">
+      <ion-col width-33>{{dado.tit}}</ion-col>
+      <ion-col width-25>{{dado.fem | number:'1.0' | replace:",":"."}}</ion-col>
+	    <ion-col width-25>{{dado.masc | number:'1.0' | replace:",":"."}}</ion-col>      
+	    <ion-col width-20>{{dado.fem+dado.masc | number:'1.0' | replace:",":"."}}</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col width-33>TOTAL</ion-col>
+      <ion-col width-25>{{tecnicosAdministrativos.totalF | number:'1.0' | replace:",":"."}}</ion-col>
+	    <ion-col width-25>{{tecnicosAdministrativos.totalM | number:'1.0' | replace:",":"."}}</ion-col>      
+	    <ion-col width-20>{{tecnicosAdministrativos.totalF+tecnicosAdministrativos.totalM | number:'1.0'| replace:",":"."}}</ion-col>
+    </ion-row>    
+    
+  </ion-grid>
+
+
+</ion-content>

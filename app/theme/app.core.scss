@@ -1,6 +1,5 @@
 // http://ionicframework.com/docs/v2/theming/
 
-
 // App Shared Imports
 // --------------------------------------------------
 // These are the imports which make up the design of this app.
@@ -8,14 +7,21 @@
 // App Shared Sass variables belong in app.variables.scss.
 
 @import "../pages/inicio/inicio";
-@import "../pages/page1/page1";
-@import "../pages/page2/page2";
+@import "../pages/infraestrutura/infraestrutura";
+@import "../pages/publicacao/publicacao";
+@import "../pages/tecnicosadministrativos/tecnicosadministrativos";
+@import "../pages/titulacao/titulacao";
+@import "../pages/regimetrabalho/regimetrabalho";
+@import "../pages/faculdades/faculdades";
+@import "../pages/posgraduacao/posgraduacao";
+@import "../pages/dadosfinanceiros/dadosfinanceiros";
 
 
+/**
 ion-content {
 	background-color: #FFFFFF;
 }
-
+*/
 .pageTitle {
     display: block;
     margin: auto;
@@ -25,13 +31,14 @@ ion-content {
    	text-align: center;
 }
 
-.menuTitle {
+.menuLogo {
 	background-color: #003a7a;
     display: block;
     margin: auto;
 }
 
 .menu {
+    background-color: #003a7a;
     display: block;
     font-size: 0.9em;
     font-weight: bold;
@@ -47,18 +54,57 @@ ion-content {
     padding-left: 4px;
 }
 
-ion-grid ion-row ion-col {
+ion-grid {
+    border-radius: 2px;
+    text-align: center;
+    margin: 0;
+    height: auto;
+    width: auto;
+}
+
+ion-row.header {
+    text-align: center;
+    margin: 0;
+    font-size: 1.0em;
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+
+ion-row.headernospace {
+    text-align: center;
+    margin: 0;
+    font-size: 0.9em;
+    font-weight: bold;
+    white-space: normal;
+    /* align-items: center;  */
+
+}
+    
+ion-row.data {
+    text-align: center;
+    margin: 0;
+    font-size: 0.8em;
+}
+
+ion-col {
     background-color: #fff;
     border: 1px solid #7f8c8d;
     color: #7f8c8d;
     margin: 0;
     font-size: 0.9em;
-    align-items: baseline;	
+    align-items: baseline; 
 }
 
-ion-row.header {
-	text-align: center;
+ion-scroll {
+    height: 90vh !important;
+    width: auto !important;
+    white-space: nowrap;
+}
+
+.noborder {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
     margin: 0;
-    font-size: 1.0em;
-    margin-bottom: 2px;
 }
