@@ -2,7 +2,7 @@ import { Component, ViewChild } from '@angular/core';
 import { ionicBootstrap, Platform, Nav, NavController,NavParams } from 'ionic-angular';
 import { StatusBar } from 'ionic-native';
 
-import { InicioPage } from './pages/inicio/inicio'; 
+import { InicioPage } from './pages/inicio/inicio';
 import { InfraestruturaPage } from './pages/infraestrutura/infraestrutura';
 import { PublicacaoPage } from './pages/publicacao/publicacao';
 import { TecnicosadministrativosPage } from './pages/tecnicosadministrativos/tecnicosadministrativos';
@@ -29,27 +29,27 @@ class MyApp {
 
   constructor(private platform: Platform) {
     this.initializeApp();
-    
+
     this.pagesInicio = [
       { title: 'Inicio', icon: 'home', component: InicioPage }
     ];
 
     this.pagesDadosGlobais = [
       { title: 'Técnicos-Administrativos', icon: 'people', component: TecnicosadministrativosPage }
-    ];    
+    ];
 
     this.pagesDocentes = [
       { title: 'Titulação', icon: 'ribbon', component: TitulacaoPage },
       { title: 'Regime de Trabalho', icon: 'clock', component: RegimetrabalhoPage }
-    ]; 
+    ];
 
     this.pagesFaculdades = [
       { title: 'Graduação', icon: 'school', component: FaculdadesPage },
       // { title: 'Pós-Graduação', icon: 'school', component: FaculdadesPage },
       { title: 'Mestrado', icon: 'school', component: FaculdadesPage },
       { title: 'Doutorado', icon: 'school', component: FaculdadesPage }
-    ];       
-    
+    ];
+
     this.pagesDadosFinanceiros = [
       { title: 'Receitas / Despesas', icon: 'cash', component: DadosfinanceirosPage }
     ];
@@ -60,7 +60,7 @@ class MyApp {
       { menu: 'Docentes', opcoes: this.pagesDocentes },
       { menu: 'Dados Instituidos/ Faculdades', opcoes: this.pagesFaculdades },
       { menu: 'Dados Financeiros', opcoes: this.pagesDadosFinanceiros }
-    ];      
+    ];
   }
 
   initializeApp() {
@@ -79,7 +79,7 @@ class MyApp {
     this.nav.setRoot(page.component, {
       pagina: page.title
     });
-  }    
+  }
 }
 
 ionicBootstrap(MyApp, [], {
