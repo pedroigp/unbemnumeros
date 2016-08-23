@@ -73,9 +73,12 @@
   <preference name="SplashScreenDelay" value="4000"/>
   <preference name="FadeSplashScreenDuration" value="4000"/>
   <preference name="SplashScreen" value="screen"/>
-  <preference name="windows-target-version" value="10.0"/>
-  <preference name="windows-phone-target-version" value="10.0"/>
-  <preference name="Windows.Universal-MinVersion" value="10.0.10069.0"/>
+  <!-- <preference name="windows-target-version" value="10.0"/> -->
+  <!-- <preference name="windows-phone-target-version" value="10.0"/> -->
+  <!-- <preference name="Windows.Universal-MinVersion" value="10.0.10069.0"/> -->
+  <preference name="windows-target-version" value="8.1"/>
+  <preference name="windows-phone-target-version" value="8.1"/>
+  <preference name="Windows.Universal-MinVersion" value="8.1"/>
   <preference name="Windows.Universal-MaxVersionTested" value="10.0.10166.0"/>
   <preference name="xwalkVersion" value="19+"/>
   <preference name="xwalkCommandLine" value="--disable-pull-to-refresh-effect"/>
