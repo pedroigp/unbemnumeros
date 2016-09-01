@@ -1,0 +1,34 @@
+<ion-header>
+	<ion-navbar>
+		<button menuToggle>
+			<ion-icon name="menu"></ion-icon>
+		</button>
+		<ion-title> Regime de Trabalho</ion-title>	
+	</ion-navbar>
+<!-- 	<ion-toolbar>
+	  	<ion-title>Regime de Trabalho</ion-title>
+	</ion-toolbar> -->
+</ion-header>
+
+<ion-content class="regimetrabalho">
+	<ion-scroll scrollX="true" scrollY="true">
+		<ion-grid padding>
+			<ion-row class="headernospace">
+				<ion-col width-20>Unidade</ion-col>
+				<ion-col width-20>Afastado</ion-col>
+				<ion-col width-25>Tempo Integral com DE</ion-col>
+				<ion-col width-25>Tempo Integral sem DE</ion-col>
+				<ion-col width-20>Tempo Parcial</ion-col>
+				<ion-col width-5 class="noborder"></ion-col>
+			</ion-row>
+			<ion-row *ngFor="let dados of regime" class="data">
+				<ion-col width-20>{{dados.und}}</ion-col>
+				<ion-col width-20>{{dados.a}}</ion-col>
+				<ion-col width-25>{{dados.icde}}</ion-col>
+				<ion-col width-25>{{dados.isde}}</ion-col>
+				<ion-col width-20 class="padding-right padding-horizontal">{{dados.p}}</ion-col>
+				<ion-col width-5 class="noborder"></ion-col>
+			</ion-row>
+		</ion-grid>
+	</ion-scroll>
+</ion-content>

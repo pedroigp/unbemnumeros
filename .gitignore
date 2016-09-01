@@ -1,8 +1,8 @@
 # Specifies files to intentionally ignore when using Git
 # http://git-scm.com/docs/gitignore
 
-node_modules/
-www/build/
+#node_modules/ -- pra poder usar o phonegap build
+#www/build/ -- pra poder usar o phonegap build
 #platforms/ -- pra poder usar o phonegap build
 plugins/
 *.swp
