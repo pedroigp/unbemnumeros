@@ -1,0 +1,30 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "br.unb.dpo.dai.cig.unbemnumeros"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "br.unb.dpo.dai.cig.unbemnumeros"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "br.unb.dpo.dai.cig.unbemnumeros"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "br.unb.dpo.dai.cig.unbemnumeros"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "br.unb.dpo.dai.cig.unbemnumeros"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "br.unb.dpo.dai.cig.unbemnumeros"
+        }
+    },
+    "dependent_plugins": {}
+}
