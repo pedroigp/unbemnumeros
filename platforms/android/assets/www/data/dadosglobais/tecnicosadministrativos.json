@@ -1,0 +1,31 @@
+{ 
+    "dados": [{
+        "tit": "Ensino Fundamental Incompleto",
+        "fem": 6,
+        "masc": 31
+    }, {
+        "tit": "Ensino Fundamental",
+        "fem": 16,
+        "masc": 51
+    }, {
+        "tit": "Ensino Médio/Técnico",
+        "fem": 285,
+        "masc": 361
+    }, {
+        "tit": "Ensino Superior",
+        "fem": 560,
+        "masc": 563
+    }, {
+        "tit": "Especialização",
+        "fem": 464,
+        "masc": 339
+    }, {
+        "tit": "Mestrado",
+        "fem": 157,
+        "masc": 131
+    }, {
+        "tit": "Doutorado",
+        "fem": 35,
+        "masc": 25        
+    }]   
+}

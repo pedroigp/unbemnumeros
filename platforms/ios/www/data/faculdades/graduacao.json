@@ -1,0 +1,861 @@
+{
+    "dados": [{
+        "curso": "Administração (B - Integral)",
+        "und": "FACE",
+        "mat": 648,
+        "for": 72,
+        "ing": 138
+    }, {
+        "curso": "Administração (B - Noturno)",
+        "und": "FACE",
+        "mat": 671,
+        "for": 83,
+        "ing": 148
+    }, {
+        "curso": "Administração Pública (B - A Distância)",
+        "und": "FACE",
+        "mat": 88,
+        "for": 56,
+        "ing": 0
+    }, {
+        "curso": "Agronomia (B - Integral)",
+        "und": "FAV",
+        "mat": 746,
+        "for": 62,
+        "ing": 171
+    }, {
+        "curso": "Arquitetura e Urbanismo (B - Integral)",
+        "und": "FAU",
+        "mat": 604,
+        "for": 82,
+        "ing": 103
+    }, {
+        "curso": "Arquitetura e Urbanismo (B - Noturno)",
+        "und": "FAU",
+        "mat": 350,
+        "for": 16,
+        "ing": 74
+    }, {
+        "curso": "Arquivologia (B - Noturno)",
+        "und": "FCI",
+        "mat": 394,
+        "for": 66,
+        "ing": 93
+    }, {
+        "curso": "Artes Cênicas (B - Integral)",
+        "und": "IDA",
+        "mat": 159,
+        "for": 12,
+        "ing": 42
+    }, {
+        "curso": "Artes Cênicas (L - Integral)",
+        "und": "IDA",
+        "mat": 115,
+        "for": 10,
+        "ing": 23
+    }, {
+        "curso": "Artes Cênicas (L – Noturno)",
+        "und": "IDA",
+        "mat": 66,
+        "for": 3,
+        "ing": 19
+    }, {
+        "curso": "Artes Plásticas (B - Integral)",
+        "und": "IDA",
+        "mat": 255,
+        "for": 27,
+        "ing": 62
+    }, {
+        "curso": "Artes Plásticas (L - Integral)",
+        "und": "IDA",
+        "mat": 109,
+        "for": 9,
+        "ing": 33
+    }, {
+        "curso": "Artes Plásticas (L - Noturno)",
+        "und": "IDA",
+        "mat": 124,
+        "for": 13,
+        "ing": 34
+    }, {
+        "curso": "Artes Visuais (L - A Distância)",
+        "und": "IDA",
+        "mat": 150,
+        "for": 10,
+        "ing": 0
+    }, {
+        "curso": "Biblioteconomia (B - Integral)",
+        "und": "FCI",
+        "mat": 405,
+        "for": 50,
+        "ing": 83
+    }, {
+        "curso": "Biotecnologia (B - Integral)",
+        "und": "IB",
+        "mat": 336,
+        "for": 30,
+        "ing": 81
+    }, {
+        "curso": "Ciência da Computação (B - Integral)",
+        "und": "IE",
+        "mat": 438,
+        "for": 23,
+        "ing": 94
+    }, {
+        "curso": "Ciência Política (B - Integral)",
+        "und": "IPOL",
+        "mat": 544,
+        "for": 62,
+        "ing": 142
+    }, {
+        "curso": "Ciências Ambientais (B - Noturno)",
+        "und": "IG",
+        "mat": 357,
+        "for": 26,
+        "ing": 82
+    }, {
+        "curso": "Ciências Biológicas (B - Integral)",
+        "und": "IB",
+        "mat": 440,
+        "for": 91,
+        "ing": 127
+    }, {
+        "curso": "Ciências Biológicas (L - A Distância)",
+        "und": "IB",
+        "mat": 94,
+        "for": 14,
+        "ing": 0
+    }, {
+        "curso": "Ciências Biológicas (L - Integral)",
+        "und": "IB",
+        "mat": 18,
+        "for": 4,
+        "ing": 0
+    }, {
+        "curso": "Ciências Biológicas (L - Noturno)",
+        "und": "IB",
+        "mat": 404,
+        "for": 67,
+        "ing": 120
+    }, {
+        "curso": "Ciências Contábeis (B - Integral)",
+        "und": "FACE",
+        "mat": 508,
+        "for": 61,
+        "ing": 148
+    }, {
+        "curso": "Ciências Contábeis (B - Noturno)",
+        "und": "FACE",
+        "mat": 830,
+        "for": 92,
+        "ing": 161
+    }, {
+        "curso": "Ciências Econômicas (B - Integral)",
+        "und": "FACE",
+        "mat": 565,
+        "for": 67,
+        "ing": 140
+    }, {
+        "curso": "Ciências Farmacêuticas (B - Integral)",
+        "und": "FS",
+        "mat": 406,
+        "for": 57,
+        "ing": 85
+    }, {
+        "curso": "Ciências Farmacêuticas (B - Noturno)",
+        "und": "FS",
+        "mat": 252,
+        "for": 8,
+        "ing": 63
+    }, {
+        "curso": "Ciências Naturais-Segunda Licenciatura (L - Integral)",
+        "und": "FUP",
+        "mat": 2,
+        "for": 0,
+        "ing": 0
+    }, {
+        "curso": "Ciências Naturais (L - Integral)",
+        "und": "FUP",
+        "mat": 270,
+        "for": 27,
+        "ing": 72
+    }, {
+        "curso": "Ciências Naturais (L - Noturno)",
+        "und": "FUP",
+        "mat": 246,
+        "for": 14,
+        "ing": 68
+    }, {
+        "curso": "Ciências Sociais-Antropologia (B - Integral)",
+        "und": "ICS",
+        "mat": 169,
+        "for": 24,
+        "ing": 40
+    }, {
+        "curso": "Ciências Sociais-C. Sociais (B - Integral)",
+        "und": "ICS",
+        "mat": 429,
+        "for": 32,
+        "ing": 162
+    }, {
+        "curso": "Ciências Sociais-Sociologia (B - Integral)",
+        "und": "ICS",
+        "mat": 148,
+        "for": 27,
+        "ing": 42
+    }, {
+        "curso": "Ciências Sociais (L - Integral)",
+        "und": "ICS",
+        "mat": 221,
+        "for": 54,
+        "ing": 75
+    }, {
+        "curso": "Computação (L - Noturno)",
+        "und": "IE",
+        "mat": 378,
+        "for": 20,
+        "ing": 112
+    }, {
+        "curso": "Comunicação Organizacional (B - Noturno)",
+        "und": "FAC",
+        "mat": 377,
+        "for": 32,
+        "ing": 96
+    }, {
+        "curso": "Comunicação Social-Audiovisual (B - Integral)",
+        "und": "FAC",
+        "mat": 241,
+        "for": 37,
+        "ing": 43
+    }, {
+        "curso": "Comunicação Social-Jornalismo (B - Integral)",
+        "und": "FAC",
+        "mat": 318,
+        "for": 54,
+        "ing": 83
+    }, {
+        "curso": "Comunicação Social-Public. Propaganda (B - Integral)",
+        "und": "FAC",
+        "mat": 252,
+        "for": 44,
+        "ing": 53
+    }, {
+        "curso": "Desenho Industrial-Prog. Visual (B - Integral)",
+        "und": "IDA",
+        "mat": 176,
+        "for": 20,
+        "ing": 43
+    }, {
+        "curso": "Desenho Industrial-Proj. Produto (B - Integral)",
+        "und": "IDA",
+        "mat": 112,
+        "for": 15,
+        "ing": 19
+    }, {
+        "curso": "Direito (B - Integral)",
+        "und": "FD",
+        "mat": 732,
+        "for": 102,
+        "ing": 154
+    }, {
+        "curso": "Direito (B - Noturno)",
+        "und": "FD",
+        "mat": 774,
+        "for": 118,
+        "ing": 143
+    }, {
+        "curso": "Educação Artística-Cênicas (L - Integral)",
+        "und": "IDA",
+        "mat": 3,
+        "for": 0,
+        "ing": 1
+    }, {
+        "curso": "Educação Artística-Música (L - Integral)",
+        "und": "IDA",
+        "mat": 17,
+        "for": 8,
+        "ing": 0
+    }, {
+        "curso": "Educação do Campo (L - Integral)",
+        "und": "FUP",
+        "mat": 301,
+        "for": 44,
+        "ing": 133
+    }, {
+        "curso": "Educação Física (B - Integral)",
+        "und": "FEF",
+        "mat": 344,
+        "for": 3,
+        "ing": 103
+    }, {
+        "curso": "Educação Física (L - A Distância)",
+        "und": "FEF",
+        "mat": 228,
+        "for": 24,
+        "ing": 1
+    }, {
+        "curso": "Educação Física (L - Integral)",
+        "und": "FEF",
+        "mat": 516,
+        "for": 82,
+        "ing": 125
+    }, {
+        "curso": "Enfermagem (B - Integral)",
+        "und": "FS",
+        "mat": 434,
+        "for": 40,
+        "ing": 97
+    }, {
+        "curso": "Enfermagem (L - Integral)",
+        "und": "FS",
+        "mat": 18,
+        "for": 7,
+        "ing": 0
+    }, {
+        "curso": "Enfermagem FCE (B - Integral)",
+        "und": "FCE",
+        "mat": 485,
+        "for": 53,
+        "ing": 110
+    }, {
+        "curso": "Engenharia (ABI - Integral)",
+        "und": "FGA",
+        "mat": 941,
+        "for": 0,
+        "ing": 465
+    }, {
+        "curso": "Engenharia Aeroespacial (B - Integral)",
+        "und": "FGA",
+        "mat": 198,
+        "for": 0,
+        "ing": 23
+    }, {
+        "curso": "Engenharia Ambiental (B - Integral)",
+        "und": "FT",
+        "mat": 379,
+        "for": 14,
+        "ing": 87
+    }, {
+        "curso": "Engenharia Automotiva (B - Integral)",
+        "und": "FGA",
+        "mat": 226,
+        "for": 14,
+        "ing": 5
+    }, {
+        "curso": "Engenharia Civil (B - Integral)",
+        "und": "FT",
+        "mat": 574,
+        "for": 75,
+        "ing": 104
+    }, {
+        "curso": "Engenharia de Computação (B - Integral)",
+        "und": "IE",
+        "mat": 392,
+        "for": 22,
+        "ing": 91
+    }, {
+        "curso": "Engenharia de Energia (B - Integral)",
+        "und": "FGA",
+        "mat": 354,
+        "for": 39,
+        "ing": 9
+    }, {
+        "curso": "Engenharia de Produção (B - Noturno)",
+        "und": "FT",
+        "mat": 555,
+        "for": 29,
+        "ing": 122
+    }, {
+        "curso": "Engenharia de Redes de Comunicação (B - Integral)",
+        "und": "FT",
+        "mat": 385,
+        "for": 31,
+        "ing": 87
+    }, {
+        "curso": "Engenharia de Software (B - Integral)",
+        "und": "FGA",
+        "mat": 400,
+        "for": 36,
+        "ing": 45
+    }, {
+        "curso": "Engenharia Elétrica (B - Integral)",
+        "und": "FT",
+        "mat": 534,
+        "for": 52,
+        "ing": 105
+    }, {
+        "curso": "Engenharia Eletrônica (B - Integral)",
+        "und": "FGA",
+        "mat": 375,
+        "for": 43,
+        "ing": 23
+    }, {
+        "curso": "Engenharia Florestal (B - Integral)",
+        "und": "FT",
+        "mat": 533,
+        "for": 53,
+        "ing": 104
+    }, {
+        "curso": "Engenharia Mecânica (B - Integral)",
+        "und": "FT",
+        "mat": 569,
+        "for": 65,
+        "ing": 127
+    }, {
+        "curso": "Engenharia Mecatrônica (B - Integral)",
+        "und": "FT",
+        "mat": 456,
+        "for": 30,
+        "ing": 97
+    }, {
+        "curso": "Engenharia Química (B - Integral)",
+        "und": "IQ",
+        "mat": 307,
+        "for": 0,
+        "ing": 90
+    }, {
+        "curso": "Estatística (B - Integral)",
+        "und": "IE",
+        "mat": 353,
+        "for": 32,
+        "ing": 95
+    }, {
+        "curso": "Farmácia (B - Integral)",
+        "und": "FCE",
+        "mat": 479,
+        "for": 54,
+        "ing": 92
+    }, {
+        "curso": "Filosofia (B - Integral)",
+        "und": "IH",
+        "mat": 128,
+        "for": 9,
+        "ing": 52
+    }, {
+        "curso": "Filosofia (L - Integral)",
+        "und": "IH",
+        "mat": 229,
+        "for": 14,
+        "ing": 81
+    }, {
+        "curso": "Filosofia (L - Noturno)",
+        "und": "IH",
+        "mat": 259,
+        "for": 5,
+        "ing": 71
+    }, {
+        "curso": "Física (B - Integral)",
+        "und": "IF",
+        "mat": 219,
+        "for": 18,
+        "ing": 76
+    }, {
+        "curso": "Física (L - Integral)",
+        "und": "IF",
+        "mat": 46,
+        "for": 13,
+        "ing": 20
+    }, {
+        "curso": "Física (L - Noturno)",
+        "und": "IF",
+        "mat": 200,
+        "for": 5,
+        "ing": 74
+    }, {
+        "curso": "Física Computacional (B - Integral)",
+        "und": "IF",
+        "mat": 10,
+        "for": 1,
+        "ing": 2
+    }, {
+        "curso": "Fisioterapia (B - Integral)",
+        "und": "FCE",
+        "mat": 525,
+        "for": 47,
+        "ing": 112
+    }, {
+        "curso": "Fonoaudiologia (B - Integral)",
+        "und": "FCE",
+        "mat": 175,
+        "for": 0,
+        "ing": 74
+    }, {
+        "curso": "Geofísica (B - Integral)",
+        "und": "IG",
+        "mat": 215,
+        "for": 18,
+        "ing": 54
+    }, {
+        "curso": "Geografia (B - Integral)",
+        "und": "IH",
+        "mat": 257,
+        "for": 34,
+        "ing": 69
+    }, {
+        "curso": "Geografia (L - A Distância)",
+        "und": "ICS",
+        "mat": 132,
+        "for": 20,
+        "ing": 0
+    }, {
+        "curso": "Geografia (L - Integral)",
+        "und": "IH",
+        "mat": 94,
+        "for": 25,
+        "ing": 26
+    }, {
+        "curso": "Geologia (B - Integral)",
+        "und": "IG",
+        "mat": 353,
+        "for": 38,
+        "ing": 69
+    }, {
+        "curso": "Gestão Ambiental (B - Noturno)",
+        "und": "FUP",
+        "mat": 306,
+        "for": 36,
+        "ing": 78
+    }, {
+        "curso": "Gestão de Políticas Públicas (B - Noturno)",
+        "und": "FACE",
+        "mat": 458,
+        "for": 54,
+        "ing": 116
+    }, {
+        "curso": "Gestão de Saúde Coletiva (B - Noturno)",
+        "und": "FS",
+        "mat": 283,
+        "for": 29,
+        "ing": 75
+    }, {
+        "curso": "Gestão do Agronegócio (B - Integral)",
+        "und": "FUP",
+        "mat": 337,
+        "for": 27,
+        "ing": 89
+    }, {
+        "curso": "Gestão do Agronegócio (B - Noturno)",
+        "und": "FAV",
+        "mat": 256,
+        "for": 10,
+        "ing": 73
+    }, {
+        "curso": "História (B - Integral)",
+        "und": "IH",
+        "mat": 210,
+        "for": 57,
+        "ing": 55
+    }, {
+        "curso": "História (L - Integral)",
+        "und": "IH",
+        "mat": 234,
+        "for": 33,
+        "ing": 88
+    }, {
+        "curso": "História (L - Noturno)",
+        "und": "IH",
+        "mat": 350,
+        "for": 18,
+        "ing": 91
+    }, {
+        "curso": "Letras-Espanhol (L - Noturno)",
+        "und": "IL",
+        "mat": 276,
+        "for": 19,
+        "ing": 82
+    }, {
+        "curso": "Letras-Francês (B - Integral)",
+        "und": "IL",
+        "mat": 119,
+        "for": 2,
+        "ing": 47
+    }, {
+        "curso": "Letras-Francês (L - Integral)",
+        "und": "IL",
+        "mat": 107,
+        "for": 13,
+        "ing": 35
+    }, {
+        "curso": "Letras-Inglês (B - Integral)",
+        "und": "IL",
+        "mat": 138,
+        "for": 11,
+        "ing": 47
+    }, {
+        "curso": "Letras-Inglês (L - Integral)",
+        "und": "IL",
+        "mat": 141,
+        "for": 22,
+        "ing": 50
+    }, {
+        "curso": "Letras-Japonês (L - Noturno)",
+        "und": "IL",
+        "mat": 208,
+        "for": 16,
+        "ing": 55
+    }, {
+        "curso": "Letras-Língua Estrang. Aplic. (B - Integral)",
+        "und": "IL",
+        "mat": 231,
+        "for": 8,
+        "ing": 67
+    }, {
+        "curso": "Letras-Português (B - Integral)",
+        "und": "IL",
+        "mat": 268,
+        "for": 38,
+        "ing": 62
+    }, {
+        "curso": "Letras-Português (L - Integral)",
+        "und": "IL",
+        "mat": 179,
+        "for": 43,
+        "ing": 74
+    }, {
+        "curso": "Letras-Português (L - Noturno)",
+        "und": "IL",
+        "mat": 461,
+        "for": 56,
+        "ing": 123
+    }, {
+        "curso": "Letras-Português do Brasil como Segunda Língua (L - Integral)",
+        "und": "IL",
+        "mat": 231,
+        "for": 20,
+        "ing": 67
+    }, {
+        "curso": "Letras-Tradução Espanhol (B - Noturno)",
+        "und": "IL",
+        "mat": 225,
+        "for": 21,
+        "ing": 60
+    }, {
+        "curso": "Letras-Tradução Francês (B - Integral)",
+        "und": "IL",
+        "mat": 140,
+        "for": 10,
+        "ing": 44
+    }, {
+        "curso": "Letras-Tradução Inglês (B - Integral)",
+        "und": "IL",
+        "mat": 250,
+        "for": 22,
+        "ing": 70
+    }, {
+        "curso": "Letras (L - A Distância)",
+        "und": "IL",
+        "mat": 235,
+        "for": 44,
+        "ing": 2
+    }, {
+        "curso": "Língua de Sinais Brasileira/Português Como Segunda Língua (L - Integral)",
+        "und": "IL",
+        "mat": 32,
+        "for": 0,
+        "ing": 32
+    }, {
+        "curso": "Matemática-Segunda Licenciatura (L - Noturno)",
+        "und": "IE",
+        "mat": 14,
+        "for": 9,
+        "ing": 0
+    }, {
+        "curso": "Matemática (B - Integral)",
+        "und": "IE",
+        "mat": 77,
+        "for": 7,
+        "ing": 27
+    }, {
+        "curso": "Matemática (L - Integral)",
+        "und": "IE",
+        "mat": 197,
+        "for": 16,
+        "ing": 65
+    }, {
+        "curso": "Matemática (L - Noturno)",
+        "und": "IE",
+        "mat": 212,
+        "for": 13,
+        "ing": 75
+    }, {
+        "curso": "Medicina (B - Integral)",
+        "und": "FM",
+        "mat": 571,
+        "for": 65,
+        "ing": 95
+    }, {
+        "curso": "Medicina Veterinária (B - Integral)",
+        "und": "FAV",
+        "mat": 485,
+        "for": 37,
+        "ing": 103
+    }, {
+        "curso": "Museologia (B - Integral)",
+        "und": "FCI",
+        "mat": 240,
+        "for": 17,
+        "ing": 64
+    }, {
+        "curso": "Música-Canto (B - Integral)",
+        "und": "IDA",
+        "mat": 8,
+        "for": 0,
+        "ing": 2
+    }, {
+        "curso": "Música-Composição (B - Integral)",
+        "und": "IDA",
+        "mat": 35,
+        "for": 2,
+        "ing": 10
+    }, {
+        "curso": "Música-Regência (B - Integral)",
+        "und": "IDA",
+        "mat": 6,
+        "for": 1,
+        "ing": 0
+    }, {
+        "curso": "Música (B - Integral)",
+        "und": "IDA",
+        "mat": 67,
+        "for": 10,
+        "ing": 14
+    }, {
+        "curso": "Música (L - A Distância)",
+        "und": "IDA",
+        "mat": 140,
+        "for": 8,
+        "ing": 0
+    }, {
+        "curso": "Música (L - Integral)",
+        "und": "IDA",
+        "mat": 87,
+        "for": 0,
+        "ing": 26
+    }, {
+        "curso": "Música (L - Noturno)",
+        "und": "IDA",
+        "mat": 158,
+        "for": 13,
+        "ing": 19
+    }, {
+        "curso": "Nutrição (B - Integral)",
+        "und": "FS",
+        "mat": 335,
+        "for": 38,
+        "ing": 87
+    }, {
+        "curso": "Odontologia (B - Integral)",
+        "und": "FS",
+        "mat": 351,
+        "for": 37,
+        "ing": 81
+    }, {
+        "curso": "Pedagogia-Primeira Licenciatura (L - Integral)",
+        "und": "FE",
+        "mat": 50,
+        "for": 0,
+        "ing": 0
+    }, {
+        "curso": "Pedagogia (L - A Distância)",
+        "und": "FE",
+        "mat": 319,
+        "for": 53,
+        "ing": 0
+    }, {
+        "curso": "Pedagogia (L - Integral)",
+        "und": "FE",
+        "mat": 679,
+        "for": 88,
+        "ing": 175
+    }, {
+        "curso": "Pedagogia (L - Noturno)",
+        "und": "FE",
+        "mat": 415,
+        "for": 46,
+        "ing": 110
+    }, {
+        "curso": "Psicologia-Psicólogo (B - Integral)",
+        "und": "IP",
+        "mat": 649,
+        "for": 90,
+        "ing": 137
+    }, {
+        "curso": "Psicologia (B - Integral)",
+        "und": "IP",
+        "mat": 68,
+        "for": 49,
+        "ing": 60
+    }, {
+        "curso": "Psicologia (L - Integral)",
+        "und": "IP",
+        "mat": 28,
+        "for": 7,
+        "ing": 20
+    }, {
+        "curso": "Química (B - Integral)",
+        "und": "IQ",
+        "mat": 270,
+        "for": 32,
+        "ing": 79
+    }, {
+        "curso": "Química (L - Noturno)",
+        "und": "IQ",
+        "mat": 257,
+        "for": 21,
+        "ing": 69
+    }, {
+        "curso": "Química Tecnológica (B - Integral)",
+        "und": "IQ",
+        "mat": 242,
+        "for": 11,
+        "ing": 67
+    }, {
+        "curso": "Relações Internacionais (B - Integral)",
+        "und": "IREL",
+        "mat": 506,
+        "for": 79,
+        "ing": 123
+    }, {
+        "curso": "Saúde Coletiva (B - Integral)",
+        "und": "FCE",
+        "mat": 417,
+        "for": 59,
+        "ing": 105
+    }, {
+        "curso": "Serviço Social (B - Integral)",
+        "und": "IH",
+        "mat": 373,
+        "for": 55,
+        "ing": 87
+    }, {
+        "curso": "Serviço Social (B - Noturno)",
+        "und": "IH",
+        "mat": 354,
+        "for": 32,
+        "ing": 83
+    }, {
+        "curso": "Teatro (L - A Distância)",
+        "und": "IDA",
+        "mat": 64,
+        "for": 15,
+        "ing": 0
+    }, {
+        "curso": "Teoria Crítica e História da Arte (B - Noturno)",
+        "und": "IDA",
+        "mat": 252,
+        "for": 0,
+        "ing": 88
+    }, {
+        "curso": "Terapia Ocupacional (B - Integral)",
+        "und": "FCE",
+        "mat": 375,
+        "for": 38,
+        "ing": 94
+    }, {
+        "curso": "Turismo (B - Integral)",
+        "und": "CET",
+        "mat": 335,
+        "for": 25,
+        "ing": 79
+    }]
+}

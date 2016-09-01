@@ -1,0 +1,28 @@
+﻿<ion-menu [content]="content">
+
+  <ion-toolbar azulunb>
+    <ion-title>
+      <img src = "images/logo-unb.png" class="menuLogo" />
+    </ion-title>
+  </ion-toolbar>
+
+  <ion-content class="menu">
+    <ion-list no-lines>    
+           
+      <span *ngFor="let m of menuPrincipal">
+        <ion-list-header class="buttonmenu" *ngIf="m.menu">
+           {{m.menu}}        
+        </ion-list-header>
+        <button menuClose ion-item *ngFor="let p of m.opcoes" (click)="openPageParam(p)" class="buttonmenu">
+           <ion-icon name="{{p.icon}}" item-left></ion-icon> {{p.title}}
+        </button> 
+      </span>
+
+    </ion-list>
+
+  </ion-content>
+
+</ion-menu>
+
+<!-- Disable swipe-to-go-back because it's poor UX to combine STGB with side menus -->
+<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>

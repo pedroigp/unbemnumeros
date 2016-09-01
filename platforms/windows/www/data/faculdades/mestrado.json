@@ -1,0 +1,525 @@
+﻿{
+    "dados": [{
+        "curso": "Administração",
+        "und": "FACE",
+        "mat": 101,
+        "for": 20,
+        "ing": 40
+    }, {
+        "curso": "Administração Pública",
+        "und": "FACE",
+        "mat": 36,
+        "for": 14,
+        "ing": 0
+    }, {
+        "curso": "Agronegócios",
+        "und": "FAV",
+        "mat": 36,
+        "for": 11,
+        "ing": 13
+    }, {
+        "curso": "Agronegócios Multi institucional",
+        "und": "FAV",
+        "mat": 7,
+        "for": 0,
+        "ing": 0
+    }, {
+        "curso": "Agronomia",
+        "und": "FAV",
+        "mat": 69,
+        "for": 19,
+        "ing": 24
+    }, {
+        "curso": "Antropologia",
+        "und": "ICS",
+        "mat": 44,
+        "for": 11,
+        "ing": 20
+    }, {
+        "curso": "Arquitetura e Urbanismo",
+        "und": "FAU",
+        "mat": 82,
+        "for": 17,
+        "ing": 39
+    }, {
+        "curso": "Artes",
+        "und": "IDA",
+        "mat": 91,
+        "for": 17,
+        "ing": 21
+    }, {
+        "curso": "Artes Cênicas",
+        "und": "IDA",
+        "mat": 21,
+        "for": 0,
+        "ing": 9
+    }, {
+        "curso": "Bioética",
+        "und": "FS",
+        "mat": 29,
+        "for": 8,
+        "ing": 12
+    }, {
+        "curso": "Biologia Animal",
+        "und": "IB",
+        "mat": 34,
+        "for": 11,
+        "ing": 7
+    }, {
+        "curso": "Biologia Microbiana",
+        "und": "IB",
+        "mat": 18,
+        "for": 6,
+        "ing": 7
+    }, {
+        "curso": "Botânica",
+        "und": "IB",
+        "mat": 58,
+        "for": 19,
+        "ing": 15
+    }, {
+        "curso": "Ciência da Informação",
+        "und": "FCI",
+        "mat": 61,
+        "for": 22,
+        "ing": 17
+    }, {
+        "curso": "Ciência Política",
+        "und": "IPOL",
+        "mat": 48,
+        "for": 11,
+        "ing": 19
+    }, {
+        "curso": "Ciências Agrárias",
+        "und": "FT",
+        "mat": 15,
+        "for": 0,
+        "ing": 0
+    }, {
+        "curso": "Ciências Ambientais",
+        "und": "FUP",
+        "mat": 9,
+        "for": 0,
+        "ing": 9
+    }, {
+        "curso": "Ciências Animais",
+        "und": "FAV",
+        "mat": 46,
+        "for": 14,
+        "ing": 11
+    }, {
+        "curso": "Ciências Biológicas",
+        "und": "IB",
+        "mat": 35,
+        "for": 12,
+        "ing": 7
+    }, {
+        "curso": "Ciências Contábeis",
+        "und": "FACE",
+        "mat": 52,
+        "for": 13,
+        "ing": 20
+    }, {
+        "curso": "Ciências da Saúde",
+        "und": "FS",
+        "mat": 157,
+        "for": 44,
+        "ing": 55
+    }, {
+        "curso": "Ciências de Materiais",
+        "und": "FUP",
+        "mat": 33,
+        "for": 12,
+        "ing": 10
+    }, {
+        "curso": "Ciências do Comportamento",
+        "und": "IP",
+        "mat": 40,
+        "for": 7,
+        "ing": 13
+    }, {
+        "curso": "Ciências e Tecnologias em Saúde",
+        "und": "FCE",
+        "mat": 54,
+        "for": 9,
+        "ing": 25
+    }, {
+        "curso": "Ciências Farmacêuticas",
+        "und": "FS",
+        "mat": 42,
+        "for": 12,
+        "ing": 14
+    }, {
+        "curso": "Ciências Florestais",
+        "und": "FT",
+        "mat": 65,
+        "for": 18,
+        "ing": 20
+    }, {
+        "curso": "Ciências Mecânicas",
+        "und": "FT",
+        "mat": 158,
+        "for": 9,
+        "ing": 50
+    }, {
+        "curso": "Ciências Médicas",
+        "und": "FM",
+        "mat": 55,
+        "for": 14,
+        "ing": 18
+    }, {
+        "curso": "Ciências Sociais",
+        "und": "ICS",
+        "mat": 34,
+        "for": 8,
+        "ing": 15
+    }, {
+        "curso": "Computação Aplicada",
+        "und": "IE",
+        "mat": 72,
+        "for": 24,
+        "ing": 30
+    }, {
+        "curso": "Comunicação",
+        "und": "FAC",
+        "mat": 75,
+        "for": 26,
+        "ing": 27
+    }, {
+        "curso": "Desenvolvimento Sustentável",
+        "und": "CDS",
+        "mat": 81,
+        "for": 8,
+        "ing": 48
+    }, {
+        "curso": "Desenvolvimento, Sociedade e Cooperação Internacional",
+        "und": "CEAM",
+        "mat": 40,
+        "for": 8,
+        "ing": 16
+    }, {
+        "curso": "Design",
+        "und": "IDA",
+        "mat": 30,
+        "for": 10,
+        "ing": 11
+    }, {
+        "curso": "Direito",
+        "und": "FD",
+        "mat": 139,
+        "for": 33,
+        "ing": 63
+    }, {
+        "curso": "Direitos Humanos e Cidadania",
+        "und": "CEAM",
+        "mat": 51,
+        "for": 14,
+        "ing": 18
+    }, {
+        "curso": "Ecologia",
+        "und": "IB",
+        "mat": 56,
+        "for": 13,
+        "ing": 20
+    }, {
+        "curso": "Economia",
+        "und": "FACE",
+        "mat": 303,
+        "for": 41,
+        "ing": 87
+    }, {
+        "curso": "Educação",
+        "und": "FE",
+        "mat": 196,
+        "for": 74,
+        "ing": 46
+    }, {
+        "curso": "Educação Física",
+        "und": "FEF",
+        "mat": 95,
+        "for": 31,
+        "ing": 29
+    }, {
+        "curso": "Enfermagem",
+        "und": "FS",
+        "mat": 55,
+        "for": 14,
+        "ing": 20
+    }, {
+        "curso": "Engenharia Biomédica",
+        "und": "FGA",
+        "mat": 61,
+        "for": 17,
+        "ing": 27
+    }, {
+        "curso": "Engenharia de Sistemas Eletrônicos e de Automação",
+        "und": "FT",
+        "mat": 66,
+        "for": 8,
+        "ing": 22
+    }, {
+        "curso": "Engenharia Elétrica",
+        "und": "FT",
+        "mat": 113,
+        "for": 25,
+        "ing": 21
+    }, {
+        "curso": "Ensino de Ciências",
+        "und": "IQ",
+        "mat": 68,
+        "for": 18,
+        "ing": 25
+    }, {
+        "curso": "Ensino de Física",
+        "und": "IF",
+        "mat": 48,
+        "for": 22,
+        "ing": 0
+    }, {
+        "curso": "Estatística",
+        "und": "IE",
+        "mat": 40,
+        "for": 16,
+        "ing": 17
+    }, {
+        "curso": "Estruturas e Construção Civil",
+        "und": "FT",
+        "mat": 104,
+        "for": 24,
+        "ing": 43
+    }, {
+        "curso": "Estudos da Tradução",
+        "und": "IL",
+        "mat": 58,
+        "for": 8,
+        "ing": 37
+    }, {
+        "curso": "Filosofia",
+        "und": "IH",
+        "mat": 45,
+        "for": 15,
+        "ing": 16
+    }, {
+        "curso": "Física",
+        "und": "IF",
+        "mat": 49,
+        "for": 11,
+        "ing": 21
+    }, {
+        "curso": "Fitopatologia",
+        "und": "IB",
+        "mat": 23,
+        "for": 7,
+        "ing": 7
+    }, {
+        "curso": "Geociências Aplicadas",
+        "und": "IG",
+        "mat": 63,
+        "for": 21,
+        "ing": 23
+    }, {
+        "curso": "Geografia",
+        "und": "IH",
+        "mat": 101,
+        "for": 35,
+        "ing": 30
+    }, {
+        "curso": "Geologia",
+        "und": "IG",
+        "mat": 93,
+        "for": 20,
+        "ing": 30
+    }, {
+        "curso": "Geotecnia",
+        "und": "FT",
+        "mat": 54,
+        "for": 12,
+        "ing": 20
+    }, {
+        "curso": "Gestão Pública",
+        "und": "FUP",
+        "mat": 54,
+        "for": 9,
+        "ing": 22
+    }, {
+        "curso": "História",
+        "und": "IH",
+        "mat": 62,
+        "for": 7,
+        "ing": 14
+    }, {
+        "curso": "Informática",
+        "und": "IE",
+        "mat": 52,
+        "for": 13,
+        "ing": 12
+    }, {
+        "curso": "Integridade de Materiais da Engenharia",
+        "und": "FT",
+        "mat": 53,
+        "for": 10,
+        "ing": 24
+    }, {
+        "curso": "Linguística",
+        "und": "IL",
+        "mat": 64,
+        "for": 22,
+        "ing": 17
+    }, {
+        "curso": "Linguística Aplicada",
+        "und": "IL",
+        "mat": 56,
+        "for": 19,
+        "ing": 22
+    }, {
+        "curso": "Literatura",
+        "und": "IL",
+        "mat": 98,
+        "for": 20,
+        "ing": 48
+    }, {
+        "curso": "Matemática",
+        "und": "IE",
+        "mat": 51,
+        "for": 6,
+        "ing": 27
+    }, {
+        "curso": "Medicina Tropical",
+        "und": "FM",
+        "mat": 40,
+        "for": 13,
+        "ing": 13
+    }, {
+        "curso": "Meio Ambiente e Desenvolvimento Rural",
+        "und": "FUP",
+        "mat": 49,
+        "for": 13,
+        "ing": 18
+    }, {
+        "curso": "Mestrado Profissional em Matemática",
+        "und": "IE",
+        "mat": 79,
+        "for": 26,
+        "ing": 20
+    }, {
+        "curso": "Música",
+        "und": "IDA",
+        "mat": 51,
+        "for": 13,
+        "ing": 17
+    }, {
+        "curso": "Nanociência e Nanobiotecnologia",
+        "und": "IB",
+        "mat": 33,
+        "for": 13,
+        "ing": 11
+    }, {
+        "curso": "Nutrição Humana",
+        "und": "FS",
+        "mat": 47,
+        "for": 16,
+        "ing": 17
+    }, {
+        "curso": "Patologia Molecular",
+        "und": "FS",
+        "mat": 24,
+        "for": 7,
+        "ing": 8
+    }, {
+        "curso": "Política Social",
+        "und": "IH",
+        "mat": 39,
+        "for": 12,
+        "ing": 14
+    }, {
+        "curso": "Processos de Desenvolvimento Humano e Saúde",
+        "und": "IP",
+        "mat": 47,
+        "for": 14,
+        "ing": 28
+    }, {
+        "curso": "Psicologia Clínica e Cultura",
+        "und": "IP",
+        "mat": 78,
+        "for": 21,
+        "ing": 27
+    }, {
+        "curso": "Psicologia Social do Trabalho e das Organizações",
+        "und": "IP",
+        "mat": 44,
+        "for": 12,
+        "ing": 16
+    }, {
+        "curso": "Química",
+        "und": "IQ",
+        "mat": 98,
+        "for": 14,
+        "ing": 33
+    }, {
+        "curso": "Regulação e Gestão de Negócios",
+        "und": "FACE",
+        "mat": 9,
+        "for": 0,
+        "ing": 0
+    }, {
+        "curso": "Relações Internacionais",
+        "und": "IREL",
+        "mat": 46,
+        "for": 20,
+        "ing": 16
+    }, {
+        "curso": "Saúde Animal",
+        "und": "FAV",
+        "mat": 47,
+        "for": 13,
+        "ing": 19
+    }, {
+        "curso": "Saúde Coletiva",
+        "und": "FS",
+        "mat": 81,
+        "for": 16,
+        "ing": 28
+    }, {
+        "curso": "Sistemas Mecatrônicos",
+        "und": "FT",
+        "mat": 94,
+        "for": 10,
+        "ing": 43
+    }, {
+        "curso": "Sociologia",
+        "und": "ICS",
+        "mat": 51,
+        "for": 12,
+        "ing": 18
+    }, {
+        "curso": "Tecnologia Ambiental e Recursos Hídricos",
+        "und": "FT",
+        "mat": 52,
+        "for": 12,
+        "ing": 15
+    }, {
+        "curso": "Tecnologias Química e Biológica",
+        "und": "IQ",
+        "mat": 46,
+        "for": 7,
+        "ing": 20
+    }, {
+        "curso": "Transportes",
+        "und": "FT",
+        "mat": 54,
+        "for": 12,
+        "ing": 14
+    }, {
+        "curso": "Turismo",
+        "und": "CET",
+        "mat": 71,
+        "for": 21,
+        "ing": 29
+    }, {
+        "curso": "Zoologia",
+        "und": "IB",
+        "mat": 31,
+        "for": 11,
+        "ing": 9
+    }]
+}

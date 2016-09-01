@@ -1,0 +1,36 @@
+﻿<ion-header>
+	<ion-navbar>
+		<button menuToggle>
+			<ion-icon name="menu"></ion-icon>
+		</button>
+		<ion-title> Titulação</ion-title>
+	</ion-navbar>
+<!-- 	<ion-toolbar>
+	  	<ion-title>Titulação</ion-title>
+	</ion-toolbar> -->
+</ion-header>
+
+<!-- <ion-content class="titulacao" overflow-scroll="true"> -->
+<!-- <ion-content class="titulacao" scroll="false"> -->
+<ion-content class="titulacao">
+	<ion-scroll scrollX="true" scrollY="true">
+		<ion-grid padding>
+		  <ion-row class="headernospace">
+		  	<ion-col width-20>Unidade</ion-col>
+		  	<ion-col width-25>Doutorado</ion-col>
+		  	<ion-col width-20>Mestrado</ion-col>
+		  	<ion-col width-33>Especialização</ion-col>
+			<ion-col width-25>Sem Pós-graduação</ion-col>
+			<ion-col width-5 class="noborder"></ion-col>
+		  </ion-row>
+		  <ion-row *ngFor="let dados of titulacao" class="data">
+		  	<ion-col width-20>{{dados.und}}</ion-col>
+		  	<ion-col width-25>{{dados.dt}}</ion-col>
+		  	<ion-col width-20>{{dados.ms}}</ion-col>
+		  	<ion-col width-33>{{dados.esp}}</ion-col>
+			<ion-col width-25>{{dados.spos}}</ion-col>
+			<ion-col width-5 class="noborder"></ion-col>
+		  </ion-row>
+		</ion-grid>
+	</ion-scroll>
+</ion-content>

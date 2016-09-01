@@ -3,7 +3,7 @@
 
 node_modules/
 www/build/
-platforms/
+#platforms/ -- pra poder usar o phonegap build
 plugins/
 *.swp
 .DS_Store

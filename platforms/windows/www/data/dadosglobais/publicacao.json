@@ -1,0 +1,30 @@
+﻿{ 
+"titulacao":[
+    {"und":"FAC" , "dt":48  , "ms":12 , "esp":0 , "spos":2 },
+    {"und":"FACE", "dt":101 , "ms":32 , "esp":2 , "spos":0 },
+    {"und":"FAU" , "dt":51  , "ms":27 , "esp":0 , "spos":0 },
+    {"und":"FAV" , "dt":83  , "ms":7  , "esp":0 , "spos":0 },
+    {"und":"FCE" , "dt":127 , "ms":35 , "esp":1 , "spos":2 },
+    {"und":"FCI" , "dt":30  , "ms":11 , "esp":0 , "spos":0 },
+    {"und":"FD"  , "dt":56  , "ms":9  , "esp":1 , "spos":0 },
+    {"und":"FE"  , "dt":73  , "ms":17 , "esp":0 , "spos":0 },
+    {"und":"FEF" , "dt":42  , "ms":10 , "esp":0 , "spos":1 },
+    {"und":"FGA" , "dt":105 , "ms":17 , "esp":0 , "spos":1 },
+    {"und":"FM"  , "dt":73  , "ms":19 , "esp":6 , "spos":1 },
+    {"und":"FS"  , "dt":159 , "ms":24 , "esp":5 , "spos":2 },
+    {"und":"FT"  , "dt":187 , "ms":26 , "esp":0 , "spos":0 },
+    {"und":"FUP" , "dt":90  , "ms":21 , "esp":1 , "spos":0 },
+    {"und":"IB"  , "dt":148 , "ms":4  , "esp":0 , "spos":0 },
+    {"und":"IC"  , "dt":58  , "ms":0  , "esp":0 , "spos":0 },
+    {"und":"IDA" , "dt":85  , "ms":45 , "esp":1 , "spos":6 },
+    {"und":"IE"  , "dt":132 , "ms":19 , "esp":0 , "spos":0 },
+    {"und":"IF"  , "dt":67  , "ms":3  , "esp":1 , "spos":0 },
+    {"und":"IG"  , "dt":47  , "ms":1  , "esp":0 , "spos":0 },
+    {"und":"IH"  , "dt":118 , "ms":23 , "esp":0 , "spos":0 },
+    {"und":"IL"  , "dt":124 , "ms":40 , "esp":3 , "spos":8 },
+    {"und":"IP"  , "dt":69  , "ms":4  , "esp":0 , "spos":0 },
+    {"und":"IPOL", "dt":29  , "ms":4  , "esp":0 , "spos":0 },
+    {"und":"IQ"  , "dt":62  , "ms":6  , "esp":0 , "spos":0 },
+    {"und":"IREL", "dt":18  , "ms":0  , "esp":0 , "spos":1 }
+  ]    
+}

@@ -1,0 +1,30 @@
+﻿<ion-header>
+  <ion-navbar>
+    <button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title> Receitas / Despesas</ion-title>
+  </ion-navbar>
+  <!--  <ion-toolbar>
+  <ion-title>Regime de Trabalho</ion-title>
+  </ion-toolbar> -->  
+</ion-header>
+
+<ion-content class="dadosfinanceiros">
+  <ion-grid padding>
+    <ion-row class="header"><ion-col width-100>Receitas Auferidas</ion-col></ion-row>
+    <ion-row *ngFor="let dados of receitas">
+      <ion-col width-60>{{dados.tit}}</ion-col>
+      <ion-col width-60>{{dados.valor | currency:'BRL':true:'1.2-2'}}</ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-grid padding>
+    <ion-row class="header"><ion-col width-100>Despesas Efetuadas</ion-col></ion-row>
+    <ion-row *ngFor="let dados of despesas">
+      <ion-col width-60>{{dados.tit}}</ion-col>
+      <ion-col width-60>{{dados.valor | currency:'BRL':true:'1.2-2'}}</ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>
